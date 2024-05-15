@@ -1,0 +1,308 @@
+.header{
+    height: 20px;
+    width: 100%;
+    background: black;
+    padding: 1rem 0;
+    transition: color 1s;
+
+}
+body{
+    margin: 0px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.free{
+    font-size: calc(var(--font-heading-scale) * 1.3rem) ;
+    text-align: center;
+    margin: 1px;
+    padding: 0rem 0;
+    letter-spacing: .15rem;
+    border: 0;
+    font-family: inherit;
+}
+.icon{
+    width: 1.2rem;
+    vertical-align: middle;
+    margin-bottom: .2rem;
+    cursor: pointer;
+    margin-left: .3rem;
+    transition: width 1s;
+}
+.icon:hover{
+    width: 1.4rem;
+}
+.header:hover{
+    background-color: rgb(29, 29, 29);
+}
+.header2{
+    height: 100px;
+    width: 100%;
+    background: black;
+    padding: 10px;
+}
+.head{
+    color: white;
+}
+.img{
+    zoom: 32%;
+    padding-left: 16rem;
+    padding-top: 6.5rem;
+}
+.home{
+    color: white;
+    cursor: pointer;
+    text-underline-offset: .3rem;
+    text-decoration: underline;
+    font-size: 1.4rem;
+    font-family:inherit;
+    margin-left: 3rem;
+}
+.home-and{
+    color: white;
+    font-family: inherit;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-left: 2rem;
+    padding-bottom: 3rem;
+    font-weight:100;
+}
+.home:hover{
+    text-underline-offset: .5rem;
+}
+.home-and:hover{
+    text-decoration: underline;
+}
+.user-icon{
+    float: right;
+    color: white;
+    margin-right: 11.5rem;
+    margin-top: 1.8rem;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    transition: width 1s;
+    transition: height 1s;
+}
+.bag-icon{
+    float: right;
+    color: white;
+    margin-right: -6.5rem;
+    margin-top: 1.8rem;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    transition: width 1s;
+    transition: height 1s;
+}
+.bag-icon:hover{
+    transform: scale(1.05);
+}
+.user-icon:hover{
+    transform: scale(1.05);
+}
+.main-body{
+    width: 100%;
+}
+.one{
+    width: 482px;
+    height: 483px;
+    padding-left: 115px;
+    padding-top: 48px;
+    cursor: pointer;
+}
+.two{
+    width: 482px;
+    height: 483px;
+    padding-left: 56px;
+    padding-top: 48px;
+    cursor: pointer;
+}
+.three{
+    width: 482px;
+    height: 483px;
+    padding-left: 56px;
+    padding-top: 48px;
+    cursor: pointer;
+}
+.four{
+    width: 482px;
+    height: 483px;
+    padding-left: 115px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.five{
+    width: 482px;
+    height: 483px;
+    padding-left: 56px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.six{
+    width: 482px;
+    height: 483px;
+    padding-left: 56px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.seven{
+    width: 482px;
+    height: 483px;
+    padding-left: 115px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.eight{
+    width: 482px;
+    height: 483px;
+    padding-left: 56px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.nine{
+    width: 482px;
+    height: 483px;
+    padding-left: 56px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.ten{
+    width: 525px;
+    height: 680px;
+    padding-left: 95px;
+    padding-top: 100px;
+}
+.second-page{
+display: flex;
+}
+.note{
+    width: 40%;
+}
+.note1{
+    width: 60%;
+}
+.founder{
+    font-size: 33px;
+    font-weight: lighter;
+    color: black;
+    letter-spacing: 3px;
+    float: left;
+    padding-top: 175px;
+}
+.rohil{
+    font-size: 28px;
+    color: grey;
+    font-weight: 100;
+    text-align: center;
+    text-indent: -460px;
+    padding-top: 255px;
+
+}
+.about{
+    margin-top: 30px;
+    width: 12rem;
+    height: 4rem;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-size:23px;
+    border-radius: -1px;
+    cursor: pointer;
+    transition: width 1s;
+}
+.about:hover{
+    transform: scale(1.01);
+}
+.footer{
+    width: 100%;
+    height: 460px;
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+}
+.contact{
+    color: white;
+    font-size: 25px;
+    padding-top: 55px;
+    height: 2rem;
+}
+.num{
+    color: rgb(197, 190, 190);
+    font-size: 25px;
+    cursor: pointer;
+    transition: width 1s;
+}
+.num:hover{
+    text-decoration: underline;
+    color: white;
+}
+.insta{
+    width:30px;
+    height:30px; 
+    padding-left: 14px;
+    padding-top: 45px;
+    cursor: pointer;
+}
+.insta:hover{
+    transform: scale(1.1);
+}
+.num1{
+    padding-top: 25px;
+}
+.num1:hover{
+    text-decoration: underline;
+    color: white;
+}
+.num2{
+    padding-top: 25px;
+}
+.num2:hover{
+    text-decoration: underline;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 190px;
+    background-color: rgb(15, 15, 15);
+    border-top: 1px solid rgba(215, 215, 215, 0.5);
+}
+.cicon{
+    color: rgb(197, 193, 193);
+    padding-left: 7rem;
+}
+.twenty{
+    color: rgb(197, 193, 193);
+    padding-bottom: 3rem;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.powered{
+    color: rgb(197, 193, 193);
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: width 1s;
+}
+.powered:hover{
+    text-decoration: underline;
+    color: white;
+}
+.full{
+    color: rgb(197, 193, 193);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.privacy{
+    color: rgb(197, 193, 193);
+    font-size: 17px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition:  width 1s;
+}
+.privacy:hover{
+    text-decoration: underline;
+    color: white;
+}
+.full li{
+    margin-left: 25px;
+}
